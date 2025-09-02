@@ -104,10 +104,10 @@ $_SESSION['genre'] = $_POST['genre'] ?? '';
         <div class="age-options">
             <?php
             $ages = [
-                "10~20代"   => "10-20.JPG",
-                "30~40代"   => "30-40.JPG",
-                "50~60代"   => "50-60.JPG",
-                "70代以上"  => "70up.JPG"
+                "10~20代"   => "10-20.PNG",
+                "30~40代"   => "30-40.PNG",
+                "50~60代"   => "50-60.PNG",
+                "70代以上"  => "70up.PNG"
             ];
             foreach ($ages as $label => $img) {
                 $id = md5($label);
@@ -129,3 +129,4 @@ $_SESSION['genre'] = $_POST['genre'] ?? '';
 
 </body>
 </html>
+
