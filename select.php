@@ -104,11 +104,11 @@ $_SESSION['mood'] = $_POST['mood'] ?? '';
         <div class="genre-options">
             <?php
             $genres = [
-                "rock"       => "rock.jpg",
-                "pop"        => "pop.jpg",
-                "r&b"        => "rnb.jpg",
-                "electronic" => "electronic.jpg",
-                "hip-hop"    => "hiphop.jpg"
+                "rock"       => "rock2.PNG",
+                "pop"        => "pop2.PNG",
+                "r&b"        => "rnb2.PNG",
+                "electronic" => "electronic2.PNG",
+                "hip-hop"    => "hiphop2.PNG"
             ];
             foreach ($genres as $value => $img) {
                 $id = md5($value);
@@ -130,6 +130,7 @@ $_SESSION['mood'] = $_POST['mood'] ?? '';
 
 </body>
 </html>
+
 
 
 
